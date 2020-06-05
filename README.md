@@ -27,8 +27,9 @@ To run in test mode, the file should be called test.env and to run in prod mode,
 
 To generate secrets, you can use the following command
 
-openssl rand -base64 25
+```openssl rand -base64 25```
 
- - Run ```npm start``` from the root directory
+ - Head over to ```/prisma```, and run ```prisma deploy -e .../config/dev.env``` to deploy your dev prisma environament
+ - Run ```npm get-schema``` to get the latest schema
+ - Run ```npm start``` from the root directory 
  - Head over to ```localhost:3000``` to make GraphQL requests.
-
