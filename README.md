@@ -1,6 +1,6 @@
-# Description 
+# Blog Application 
 
-This app contains the server side structure for a basic blogging application. There are 3 main components.
+This repository contains the server side structure for a basic blogging application. There are 3 main components.
 
  - Users
  - Posts
