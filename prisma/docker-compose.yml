@@ -12,12 +12,12 @@ services:
         # managementApiSecret: my-secret
         databases:
           default:
-            connector: postgres
-            host: ec2-54-246-115-40.eu-west-1.compute.amazonaws.com
-            database: d1gvsgugm89e0v
-            schema: default
-            user: ssulnmbznccpwu
-            password: 52fc2522124d008c826f6862bcadfb9a1819f7aad5b45a0064aa08947b6b340c
+            connector: <Enter database_connector (MySQL, Postgres etc) >
+            host: <Enter database_host>
+            database: <Enter database>
+            schema: <Enter database_schema>
+            user: <Enter database_user>
+            password: <Enter database_password>
             ssl: true
             rawAccess: true
             port: '5432'
