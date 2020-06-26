@@ -11,7 +11,7 @@ This repository contains the server side structure for a basic blogging applicat
 
  - Clone the repository
  - Run npm install
- - Change the docker-compose file in the prisma folder to point to your dev database  
+ - Head over to `/prisma` and change the docker-compose file to point to your database  
  - Create a config folder in the root directory.
  - To run in dev mode, create a file name called dev.env
 
@@ -29,7 +29,7 @@ To generate secrets, you can use the following command
 
 ```openssl rand -base64 25```
 
- - Head over to ```/prisma```, and run ```prisma deploy -e .../config/dev.env``` to deploy your dev prisma environament
- - Run ```npm get-schema``` to get the latest schema
- - Run ```npm start``` from the root directory 
- - Head over to ```localhost:3000``` to make GraphQL requests.
+ - Head over to `/prisma`, and run `prisma deploy -e .../config/dev.env` to deploy your dev prisma environament
+ - Run `npm get-schema` to get the latest schema
+ - Run `npm start` from the root directory 
+ - Head over to `localhost:3000` to make GraphQL requests.
